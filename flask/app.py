@@ -15,9 +15,9 @@ def home():
     <title>Todo List</title>
 </head>
 <body>
-    <h1>Todo List</h1>
+    <h1>My To-do List</h1>
     <form action="/add" method="POST">
-        <input type="text" name="task" placeholder="Enter a new task">
+        <input type="text" name="task" placeholder="Enter new task">
         <input type="submit" value="Add Task">
     </form>
     <ul>
